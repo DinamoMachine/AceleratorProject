@@ -1,0 +1,195 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+header .contact {
+    font-weight: bold;
+}
+
+
+.hero {
+    position: relative;
+    background: url('img/BGMain.svg') center/cover no-repeat;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+
+.test-categories {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 0 20px;
+}
+
+.test-category {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding: 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: transform 0.2s;
+}
+
+.test-category:hover {
+    transform: scale(1.05);
+}
+
+
+footer {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer .social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+footer .social-icons a {
+    margin: 0 10px;
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.tests{
+    background-image: url('img/BGMain.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.tests {
+    display: flex; /* Включаем Flexbox */
+    flex-direction: column; /* Размещаем элементы в колонку (вертикально) */
+    justify-content: center; /* Выровнять элементы по вертикали */
+    align-items: center; /* Центрируем элементы по горизонтали */
+    height: 795px; /* Высота блока */
+    text-align: center; /* Центрируем текст внутри каждого элемента */
+    gap:50px;
+}
+
+.tests h1 {
+    color: #fff; /* Цвет текста */
+    margin: 0; /* Убираем внешние отступы, если они мешают */
+}
+
+.test-cards {
+    display: flex; /* Включаем Flexbox */
+    flex-wrap: wrap; /* Позволяем блокам переноситься на следующую строку */
+    justify-content: space-between; /* Равномерно распределяем блоки в строке */
+    gap: 20px; /* Отступы между блоками */
+    max-width: calc(3 * 210px + 2 * 20px); /* Ограничиваем ширину контейнера под 3 блока */
+    margin: 0 auto; /* Центрируем контейнер */
+}
+
+.test-card {
+    width: 210px; /* Фиксированная ширина */
+    height: 210px; /* Фиксированная высота */
+    background-color: white; /* Цвет фона */
+    text-align: center; /* Центрируем текст по горизонтали */
+    box-sizing: border-box; /* Учитываем padding и border в размерах */
+
+    display: flex; /* Flexbox внутри блока */
+    justify-content: center; /* Горизонтальное центрирование */
+    align-items: center; /* Вертикальное центрирование */
+
+    border-radius: 10px;
+}
+
+.container {
+    display: flex; /* Включаем Flexbox */
+    justify-content: space-between; /* Распределяем элементы по краям контейнера */
+    align-items: center; /* Вертикальное выравнивание по центру */
+    width: 100%; /* Контейнер растягивается на всю ширину */
+    padding: 10px 20px; /* Отступы внутри контейнера */
+    box-sizing: border-box; /* Учитываем padding в ширине контейнера */
+}
+
+.logo {
+    font-size: 24px; /* Размер шрифта для логотипа */
+    font-weight: bold; /* Жирное начертание */
+}
+
+.right-part {
+    display: flex; /* Включаем Flexbox для выравнивания навигации и контактов */
+    align-items: center; /* Центрируем элементы по вертикали */
+}
+
+.nav a {
+    margin-left: 20px; /* Отступ между ссылками */
+    text-decoration: none; /* Убираем подчеркивание */
+    color: black; /* Цвет текста */
+}
+
+.contact-info {
+    margin-left: 20px; /* Отступ между ссылками и контактной информацией */
+    font-size: 16px; /* Размер шрифта */
+}
+
+
+
+/*html, body {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    background-image: url('img/Frame.svg');
+    background-size: auto 100%;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+
+
+*/
